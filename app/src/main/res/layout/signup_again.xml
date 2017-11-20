@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="@drawable/drawable_login">
+    android:background="@drawable/login_again_background">
     <ImageView
         android:layout_width="23.7dp"
         android:layout_height="16dp"
@@ -16,36 +16,36 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="35.5sp"
+        android:textSize="33.5sp"
         android:id="@+id/login_text"
-        android:fontFamily="@font/poppins_black"
+        android:fontFamily="@font/poppins_extrabold"
         android:textColor="#f3ffffff"
         android:layout_marginLeft="23.7dp"
         android:layout_marginTop="68.7dp"
         android:layout_marginRight="84.7dp"
-        android:text="@string/login_text"
+        android:text="@string/login_again_text"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="12sp"
-        android:textColor="#ffffff"
+        android:textColor="#e9e9e9"
         android:id="@+id/login_message"
         android:layout_below="@+id/login_text"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="22.7dp"
         android:letterSpacing="0.01"
         android:layout_marginRight="191.3dp"
-        android:text="@string/login_with_your_email_id" />
+        android:text="Sign Up with your email ID" />
     <EditText
         android:layout_width="305.3dp"
         android:layout_height="53.3dp"
-        android:id="@+id/email"
+        android:id="@+id/name"
         android:gravity="center"
-        android:text="adrian.james@gmail.com"
+        android:text="John Doe"
         android:textSize="15.8sp"
-        android:textColor="#787878"
         android:layout_centerHorizontal="true"
+        android:textColor="#787878"
         android:letterSpacing="0.03"
         android:inputType="textEmailAddress"
         android:background="@drawable/edit_text_backgroound"
@@ -56,11 +56,41 @@
     <EditText
         android:layout_width="305.3dp"
         android:layout_height="53.3dp"
-        android:id="@+id/password"
+        android:id="@+id/phnumber"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#787878"
+        android:letterSpacing="0.03"
+        android:inputType="phone"
+        android:gravity="center"
+        android:text="+1 234 5678 910"
+        android:background="@drawable/edit_text_backgroound"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="26.7dp"
+        android:layout_marginLeft="24.3dp"/>
+    <EditText
+        android:layout_width="305.3dp"
+        android:layout_height="53.3dp"
+        android:id="@+id/email"
         android:layout_centerHorizontal="true"
         android:textSize="20sp"
         android:textColor="#787878"
         android:letterSpacing="0.03"
+        android:inputType="text"
+        android:gravity="center"
+        android:text="john.doe@gmail.com"
+        android:background="@drawable/edit_text_backgroound"
+        android:layout_below="@+id/phnumber"
+        android:layout_marginTop="26.7dp"
+        android:layout_marginLeft="24.3dp"/>
+    <EditText
+        android:layout_width="305.3dp"
+        android:layout_height="53.3dp"
+        android:id="@+id/password"
+        android:textSize="20sp"
+        android:textColor="#787878"
+        android:letterSpacing="0.03"
+        android:layout_centerHorizontal="true"
         android:inputType="textPassword"
         android:gravity="center"
         android:text="***********"
@@ -72,27 +102,17 @@
         android:layout_width="305.3dp"
         android:layout_height="53.3dp"
         android:textSize="15.8sp"
-        android:id="@+id/login_button"
+        android:id="@+id/signup_button"
         android:gravity="center"
         android:layout_below="@+id/password"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="28.3dp"
+        android:layout_marginLeft="24.3dp"
+        android:fontFamily="@font/poppins_bold"
         android:textColor="#ffffff"
         android:shadowRadius="6.7dp"
         android:letterSpacing="0.03"
-        android:background="@drawable/login_button"
-        android:text="Login Now"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="13.3sp"
-        android:id="@+id/forget_password_text"
-        android:textColor="#ffffff"
-        android:letterSpacing="0.01"
-        android:text="Forgot Password?"
-        android:layout_below="@+id/login_button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"/>
-
+        android:background="@drawable/login_again"
+        android:text="Sign Up"/>
 </RelativeLayout>
 </ScrollView>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/drawable_login">
+    <ImageView
+        android:layout_width="23.7dp"
+        android:layout_height="16dp"
+        android:id="@+id/backarrow"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="19.7dp"
+        android:layout_marginLeft="23dp"
+        android:src="@drawable/right_1600"
+        />
+    <TextView
+        android:id="@+id/login_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23.7dp"
+        android:layout_marginRight="84.7dp"
+        android:layout_marginTop="68.7dp"
+        android:fontFamily="@font/poppins_black"
+        android:text="@string/login_text"
+        android:textColor="#f3ffffff"
+        android:textSize="35.5sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@+id/login_text"
+        android:id="@+id/reset_text"
+        android:textSize="12sp"
+        android:textColor="#fffefe"
+        android:letterSpacing="0.01"
+        android:lineSpacingExtra="3.7sp"
+        android:text="Enter the OTP to reset your password" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="305.3dp"
+        android:layout_height="53.3dp"
+        android:layout_below="@+id/reset_text"
+        android:layout_marginLeft="24.3dp"
+        android:layout_marginTop="17.7dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edit_text_backgroound"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:textColor="#787878"
+        android:letterSpacing="0.03"
+        android:text="******"/>
+    <TextView
+        android:id="@+id/otp_button"
+        android:layout_width="305.3dp"
+        android:layout_height="53.3dp"
+        android:layout_below="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28.3dp"
+        android:background="@drawable/login_button"
+        android:gravity="center"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="15.8sp"
+        android:textColor="#ffffff"
+        android:letterSpacing="0.03"
+        android:text="Enter OTP" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13.3sp"
+        android:layout_marginTop="82.3dp"
+        android:layout_marginBottom="98.3dp"
+        android:textColor="#b8282f"
+        android:letterSpacing="0.01"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/otp_button"
+        android:text="Resend OTP"
+        />
+</RelativeLayout>
