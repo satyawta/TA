@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TravelApp</string>
+    <string name="launch_text">FIND THE \nPERFECT \nTRAVEL FRIEND \nFOR YOUR \nBUDGET</string>
+    <string name="terms">By Signing Up, I agree to the terms of service and privacy policy</string>
+</resources>
