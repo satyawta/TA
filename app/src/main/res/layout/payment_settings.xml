@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/onboarding">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="33.5sp"
+        android:textColor="#224ca4"
+        android:text="@string/payment_text"
+        android:layout_marginTop="30.3dp"
+        android:layout_marginLeft="27dp"
+        android:fontFamily="@font/poppins_extrabold"
+        android:layout_marginRight="37.7dp"
+        android:id="@+id/payment_text"/>
+
+        <ImageView
+            android:layout_width="121dp"
+            android:layout_height="145.3dp"
+            android:src="@drawable/vacation_25_512_copy"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="82.7dp"
+            android:layout_marginRight="156.3dp"/>
+        <ImageView
+            android:layout_width="121dp"
+            android:layout_height="145.3dp"
+            android:src="@drawable/earth"
+            android:id="@+id/center_image"
+            android:layout_centerInParent="true"/>
+    <RelativeLayout
+        android:layout_width="297.7dp"
+        android:layout_height="50.3dp"
+        android:id="@+id/payment_linear"
+        android:background="@drawable/rectangle_payment"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/center_image">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="19.7dp"
+        android:textSize="13.6sp"
+        android:id="@+id/payboth"
+        android:textColor="#2ca695"
+        android:letterSpacing="0.03"
+        android:text="CAN PAY FOR BOTH"/>
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/payboth"
+            android:layout_marginLeft="95.3dp"
+            android:src="@drawable/pay_both" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -2,9 +2,10 @@
     <string name="app_name">TravelApp</string>
     <string name="launch_text">FIND THE \nPERFECT \nTRAVEL FRIEND \nFOR YOUR \nBUDGET</string>
     <string name="terms">By Signing Up, I agree to the terms of service and privacy policy</string>
-    <string name="login_text">GET READY\nTO MEET\nPEOPLE YOU’D \nLOVE TO\nTRAVEL WITH</string>
+    <string name="login_text">GET READY \nTO MEET \nPEOPLE YOU’D \nLOVE TO \nTRAVEL WITH</string>
     <string name="login_with_your_email_id">Login with your email ID</string>
     <string name="reset_text">Enter your email id and a password reset code will \nbe sent to you</string>
     <string name="reset_password_text">We have sucessfully reset your password</string>
-    <string name="login_again_text">WE ARE EXCITEDTO HEAR YOUR TRAVEL STORIES</string>
+    <string name="login_again_text">WE ARE EXCITED TO HEAR YOUR TRAVEL STORIES</string>
+    <string name="payment_text">ANANYA, \nWhat kind of a \ntraveler are you?\n</string>
 </resources>

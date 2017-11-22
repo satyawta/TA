@@ -110,7 +110,6 @@
         android:layout_marginLeft="24.3dp"
         android:fontFamily="@font/poppins_bold"
         android:textColor="#ffffff"
-        android:shadowRadius="6.7dp"
         android:letterSpacing="0.03"
         android:background="@drawable/login_again"
         android:text="Sign Up"/>
